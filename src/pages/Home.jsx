@@ -1,0 +1,23 @@
+import { Link } from 'react-router-dom';
+import PageWrapper from '../components/PageWrapper';
+import SEO from '../components/SEO';
+
+export default function Home() {
+  return (
+    <>
+      <SEO
+        title="Alvin Phiri | Full Stack Dev & AI Freelancer"
+        description="Portfolio of Alvin Phiri, a skilled React/Node/C# developer with AI expertise. Explore projects, resume, and contact info."
+        keywords="C#, React, Node.js, AI Developer, Portfolio, Freelance"
+      />
+      <PageWrapper>
+        <div className="min-h-screen flex flex-col items-center justify-center bg-gray-950 text-white px-4">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Tea — AI & Fullstack Developer</h1>
+          <p className="text-xl text-gray-400 mb-6">I build smart systems that think for themselves.</p>
+          <Link to="/projects" className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-full transition mr-4">View My Work</Link>
+          <Link to="/resume" className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full transition">View Resume</Link>
+        </div>
+      </PageWrapper>
+    </>
+  );
+}
