@@ -16,7 +16,7 @@ function App() {
 
   return (
     <HelmetProvider>
-      <BrowserRouter basename="/tea-portfolio">
+      <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
