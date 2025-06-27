@@ -12,7 +12,7 @@ export default function Home() {
       />
       <PageWrapper>
         <div className="min-h-screen flex flex-col items-center justify-center bg-gray-950 text-white px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Alvin  — Coder, Builder, your all around Systems guy</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Alvin <br/> Coder, Builder, your all around Systems guy</h1>
           <p className="text-xl text-gray-400 mb-6">I make things work, fix what’s broken, and keep it clean while I’m at it.
 From Zimbabwe to the world. Cybersecurity certified. Backend and frontend fluent.
 Wanna see what I can do?</p>
