@@ -16,7 +16,7 @@ const ChatWidget = ({ onClose }) => {
     setLoading(true);
 
     try {
-      const res = await fetch("http://192.168.8.2:5001/chat", {
+      const res = await fetch("https://folio-backend-y210.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input }),
