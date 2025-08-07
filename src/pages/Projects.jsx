@@ -3,16 +3,23 @@ import SEO from '../components/SEO';
 
 const projects = [
   {
-    title: "Gemma C# Chatbot",
-    desc: "A console-based chatbot using HuggingFace and C#.",
-    tags: ["C#", "AI", "Gemma"],
-    demo: "#",
+    title: "Gibby – AI Assistant",
+    desc: "A personalized AI assistant built using OpenAI APIs, fine-tuned with role memory, persona, and multi-modal interaction logic. Serves as a customer-facing agent on Alvin Phiri's platforms.",
+    tags: ["JavaScript", "AI", "OpenAI", "Persona", "Custom Assistant"],
+    demo: "", // or "#"
     code: "https://github.com/yourusername/gemma-chatbot"
   },
   {
-    title: "Loan Platform MVP",
+    title: "Loan Platform WIP",
     desc: "Zero-interest loan platform for students with marketing integration.",
     tags: ["Node", "React", "MongoDB"],
+    demo: "#",
+    code: "#"
+  },
+  {
+    title: "Playful Minds",
+    desc: "Python-based application that leverages computer vision and AR to create interactive educational games",
+    tags: ["Python"],
     demo: "#",
     code: "#"
   },

@@ -4,7 +4,7 @@ import { HelmetProvider } from "react-helmet-async";
 
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import AiDemo from "./pages/AiDemo";
+
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/ai-demo" element={<AiDemo />} />
+        
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Home />} />
